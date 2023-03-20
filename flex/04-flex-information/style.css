@@ -1,7 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  justify-content: center;
 }
 
 img {
@@ -35,7 +34,5 @@ img {
 }
 
 .plants-container .plant {
-  width: 200px;
-  word-wrap: normal;
-  flex: 0 1 auto;
+  max-width: 200px;
 }
