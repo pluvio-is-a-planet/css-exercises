@@ -46,3 +46,33 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* SOLUTION STARTS HERE */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5em 1em;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+
+  gap: 1em;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 1em;
+}
+
+.profile-image {
+  flex-shrink: 0;
+  flex-basis: auto;
+}
